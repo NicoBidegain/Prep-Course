@@ -70,7 +70,7 @@ function sonIguales(x, y) {
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
-  if (str1.length === str2-length) {
+  if (str1.length === str2.length) {
     return true;
     } else {
       return false;
@@ -147,7 +147,7 @@ function redondearNumero(num) {
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
-  return Math.floor(num);
+  return Math.ceil(num);
   
 }
 

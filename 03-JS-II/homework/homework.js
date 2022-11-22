@@ -225,7 +225,7 @@ function doWhile(numero) {
 
 do {
   i = i + 1;
-  numero = numero * 5;
+  numero = numero + 5;
 } while (i < 8);
 
 return numero;
